@@ -1,0 +1,318 @@
+{
+  "feature_cols": [
+    "Adsorbent",
+    "MOF type",
+    "BET(m2/g)",
+    "Pore size(nm)",
+    "Total pore volume(cm3/g)",
+    "Cation",
+    "Metal space group",
+    "COOH",
+    "OH",
+    "NH2",
+    "CH3",
+    "CO",
+    "C=N",
+    "N=N",
+    "Pyrimidine",
+    "NO2",
+    "Temperature",
+    "Pressure"
+  ],
+  "categorical_features": [
+    "Adsorbent",
+    "MOF type",
+    "Cation",
+    "Metal space group"
+  ],
+  "numeric_features": [
+    "BET(m2/g)",
+    "Pore size(nm)",
+    "Total pore volume(cm3/g)",
+    "COOH",
+    "OH",
+    "NH2",
+    "CH3",
+    "CO",
+    "C=N",
+    "N=N",
+    "Pyrimidine",
+    "NO2",
+    "Temperature",
+    "Pressure"
+  ],
+  "numeric_stats": {
+    "BET(m2/g)": {
+      "min": 139.0,
+      "max": 2300.0,
+      "median": 950.0,
+      "options": null
+    },
+    "Pore size(nm)": {
+      "min": 0.343,
+      "max": 4.23,
+      "median": 0.76,
+      "options": null
+    },
+    "Total pore volume(cm3/g)": {
+      "min": 0.116,
+      "max": 1.08,
+      "median": 0.417,
+      "options": null
+    },
+    "COOH": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 1.0,
+      "options": [
+        0.0,
+        1.0
+      ]
+    },
+    "OH": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 1.0,
+      "options": [
+        0.0,
+        1.0
+      ]
+    },
+    "NH2": {
+      "min": 0.0,
+      "max": 2.0,
+      "median": 0.0,
+      "options": [
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "CH3": {
+      "min": 0.0,
+      "max": 2.0,
+      "median": 0.0,
+      "options": [
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    "CO": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0,
+      "options": [
+        0.0,
+        1.0
+      ]
+    },
+    "C=N": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0,
+      "options": [
+        0.0,
+        1.0
+      ]
+    },
+    "N=N": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0,
+      "options": [
+        0.0,
+        1.0
+      ]
+    },
+    "Pyrimidine": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0,
+      "options": [
+        0.0,
+        1.0
+      ]
+    },
+    "NO2": {
+      "min": 0.0,
+      "max": 1.0,
+      "median": 0.0,
+      "options": [
+        0.0,
+        1.0
+      ]
+    },
+    "Temperature": {
+      "min": 247.15,
+      "max": 373.0,
+      "median": 298.0,
+      "options": [
+        247.15,
+        273.0,
+        298.0,
+        303.0,
+        313.0,
+        323.0,
+        373.0
+      ]
+    },
+    "Pressure": {
+      "min": 0.01,
+      "max": 50.475,
+      "median": 0.52,
+      "options": null
+    }
+  },
+  "categories": {
+    "Adsorbent": [
+      "CALF-20",
+      "CNT@Ni-MOF-74/PZ",
+      "CoTCPP-UiO-66-IL",
+      "CoTCPP-UiO-66-OH",
+      "Cu2(bdcppi)(DMF)2_SNU-50",
+      "Cux-MOF-5 (x=0.05)",
+      "MIL-125",
+      "MOF-801",
+      "MOF-808",
+      "MOF-amine-a",
+      "Mg-MOF-74",
+      "Mg-MOF-74@3GO",
+      "Mg-MOF-74@6GO",
+      "Mg-MOF-74@6mGO",
+      "Mg-MOF-74@9GO",
+      "Mg-MOF-74@AC-0.5",
+      "Mg-MOF-74@AC-1",
+      "Mg-MOF-74@AC-2",
+      "Ni- Dmtz-MOF-74",
+      "Ni-Atz-MOF-74",
+      "Ni-Datz-MOF-74",
+      "Ni-MOF-74",
+      "Ni-Mtz-MOF-74",
+      "SAP-MIL-125",
+      "UiO-66-OH",
+      "ZIF-69",
+      "ZIF-8",
+      "bio-MOF-11",
+      "en@MOF-808",
+      "gly@MOF-808"
+    ],
+    "MOF type": [
+      "Bio-MOF-11",
+      "MIL-125(Ti)",
+      "MOF-5",
+      "MOF-74",
+      "MOF-808",
+      "SNU-50",
+      "UiO-66",
+      "ZIF-69",
+      "ZIF-8",
+      "Zn-triazole-oxalate MOF",
+      "Zr-MOF"
+    ],
+    "Cation": [
+      "Co",
+      "Cu",
+      "Mg",
+      "Ni",
+      "Ti",
+      "Zn",
+      "Zr"
+    ],
+    "Metal space group": [
+      "Fd-3m",
+      "Fm-3m",
+      "I-4̅3m",
+      "I4₁/amd",
+      "P2₁/c",
+      "P6₃/mmc",
+      "R-3",
+      "R-3m"
+    ]
+  },
+  "category_codes": {
+    "Adsorbent": {
+      "__MISSING__": "nan",
+      "CALF-20": 0,
+      "CNT@Ni-MOF-74/PZ": 1,
+      "CoTCPP-UiO-66-IL": 2,
+      "CoTCPP-UiO-66-OH": 3,
+      "Cu2(bdcppi)(DMF)2_SNU-50": 4,
+      "Cux-MOF-5 (x=0.05)": 5,
+      "MIL-125": 6,
+      "MOF-801": 7,
+      "MOF-808": 8,
+      "MOF-amine-a": 9,
+      "Mg-MOF-74": 10,
+      "Mg-MOF-74@3GO": 11,
+      "Mg-MOF-74@6GO": 12,
+      "Mg-MOF-74@6mGO": 13,
+      "Mg-MOF-74@9GO": 14,
+      "Mg-MOF-74@AC-0.5": 15,
+      "Mg-MOF-74@AC-1": 16,
+      "Mg-MOF-74@AC-2": 17,
+      "Ni- Dmtz-MOF-74": 18,
+      "Ni-Atz-MOF-74": 19,
+      "Ni-Datz-MOF-74": 20,
+      "Ni-MOF-74": 21,
+      "Ni-Mtz-MOF-74": 22,
+      "SAP-MIL-125": 23,
+      "UiO-66-OH": 24,
+      "ZIF-69": 25,
+      "ZIF-8": 26,
+      "bio-MOF-11": 27,
+      "en@MOF-808": 28,
+      "gly@MOF-808": 29
+    },
+    "MOF type": {
+      "Bio-MOF-11": 0,
+      "MIL-125(Ti)": 1,
+      "MOF-5": 2,
+      "MOF-74": 3,
+      "MOF-808": 4,
+      "SNU-50": 5,
+      "UiO-66": 6,
+      "ZIF-69": 7,
+      "ZIF-8": 8,
+      "Zn-triazole-oxalate MOF": 9,
+      "Zr-MOF": 10
+    },
+    "Cation": {
+      "Co": 0,
+      "Cu": 1,
+      "Mg": 2,
+      "Ni": 3,
+      "Ti": 4,
+      "Zn": 5,
+      "Zr": 6
+    },
+    "Metal space group": {
+      "Fd-3m": 0,
+      "Fm-3m": 1,
+      "I-4̅3m": 2,
+      "I4₁/amd": 3,
+      "P2₁/c": 4,
+      "P6₃/mmc": 5,
+      "R-3": 6,
+      "R-3m": 7
+    }
+  },
+  "target": "CO2 uptake (mmol/g)",
+  "metrics": {
+    "train_r2": 0.9995602894155129,
+    "test_r2": 0.9659498040229447,
+    "rmse": 0.42558014538958633,
+    "mae": 0.30047329919932864
+  },
+  "n_rows": 275,
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.2,
+    "max_depth": 3,
+    "n_estimators": 500,
+    "reg_alpha": 0,
+    "reg_lambda": 1,
+    "subsample": 0.4
+  },
+  "source_notebook": "XGB-UI部署用.ipynb"
+}
